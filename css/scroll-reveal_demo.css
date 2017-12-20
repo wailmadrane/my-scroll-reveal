@@ -1,0 +1,36 @@
+main{
+    font-family: 'Fjalla One', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 40vh;
+
+}
+.msr-block-demo{
+    width: 50%;
+    color: white;
+    padding: 8%;
+    margin: 10px;
+}
+.c1{
+    background-color: #ff3333;
+}
+.c2{
+    background-color: #80002a;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+}
+h1::after{
+    content: "";
+    display: block;
+    height: 8px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #b3003b;
+}
